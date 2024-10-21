@@ -1,0 +1,20 @@
+PRACTICAL NO. 2
+Aim: Data Acquisition:
+Perform data acquisition using:
+USB Write Blocker + FTK Imager. Solution:
+Steps: Enable USB Write Block in Windows 10, 8 and 7 using registry
+1. Press the Windows key + R to open the Run box. Type regedit and press Enter.
+2. This will open the Registry Editor. Navigate to the following key :
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control
+3. Right-click on the Control key in the left pane, select New -> Key. 4. Name it as StorageDevicePolicies.
+5. Select the StorageDevicePolicies key in the left pane, then right-click on any empty
+space in the right pane and select New -> DWORD (32-bit) Value. Name WriteProtect.
+6. Double-click on WriteProtect and then change the value data from 0 to 1.
+7. The new setting takes effect immediately. Every user who tries to copy / move data to
+USB devices or format USB drive will get the error message, ―The disk is write- protected‖. 8. We can only open the file in the USB drive for reading, but it‘s not allowed to modify
+and save the changes back to USB drive.
+9. Now Create image of the USB drive using FTK imager.
+10. Select the USB drive folder by browsing and click next Finish. 11. In the Create Image dialog, click Add.
+12. You can compare the stored hashes of your image content by checking the ―Verify images
+after they are created‖ box. If a file doesn‘t have a hash, this option will generate one. 13. You can list the entire contents of your images with path, creation dates, whether files were
+deleted, and other metadata. The list is saved in a tab-

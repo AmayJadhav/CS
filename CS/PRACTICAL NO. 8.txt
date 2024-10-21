@@ -1,0 +1,17 @@
+PRACTICAL NO. 8
+Aim: Acquisition of Cell phones and Mobile devices. Solution:
+Steps:
+1. Download mobiledit forensic tool in mobile. 2. Open Mobiledit tool in PC. 3. Click on connect.
+4. Connect your mobile device to the system. Click on phone > Next.
+5. Choose the type of connection
+6. Open the mobiledit tool in phone and click on the type of connection (i.e Cable) > connect
+the PC with device using cable and click Next
+7. Mobiledit tool starts phone detection.
+8. Mobiledit tool detects phone. Click next.
+9. Click Next.
+10. Cilck on Whole File System and Click next.
+11. Click on Cases And Click on Next.
+12. Click on Any Template to generate the report. And Click on Finish.
+13. Click on OK.
+14. Click on your device in the left panel.
+15. You can see all the files

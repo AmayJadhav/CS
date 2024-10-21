@@ -1,0 +1,28 @@
+PRACTICAL NO. 7
+Aim: Recovering and Inspecting deleted files: Check for
+Deleted Files. Recover the Deleted Files. Analyzing and Inspecting the recovered files. Solution:
+Steps:
+1. Launch FTK imager. Click file and then click on ‗Create Disk Image‘. A Window will
+appear. Select logical drive
+2. Select the location of the drive. Click on finish.
+3. Click Add to select image type and choose the image destination (Raw (dd)).Click Next.
+4. Give Case Information.
+5. Now choose the folder in which the image will be created, then click on finish.
+6. Then click on start.
+7. Open the Forensic toolkit and click on file > new case
+8. Enter the details and click on next.
+9. Fill Case Information and Click Next.
+10. Click On Next.
+11. Click On Next.
+12.Click On Next.
+13.Click On Next.
+14.Click on Add Evidence > Acquired Image of Drive > Continue.
+15.Select the Image File.
+16.Click on Ok.
+17.Click on Next.
+18.Click on Finish.
+19.Open the Processing Files.
+20.Files are being carving.
+21.In the left panel you can see all the recovered files.
+22.Click on the Deleted file tab-> Right click on any deleted file to export it.
+23.Browse and choose the destination folder to export the deleted file.

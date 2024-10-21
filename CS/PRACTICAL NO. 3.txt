@@ -1,0 +1,27 @@
+PRACTICAL NO. 3
+Aim: Forensics Case Study :
+Solve the Case Study (image file) provide in lab using Encase investigator or Autopsy. Solution:
+Step 1 : Open Autopsy.
+Step 2 : Click on new case.
+Step 3 : Enter details regarding the case and click on next button.
+Step 4 : Enter further details and click on next button.
+Step 5 : Now here we have to select Type of data source to add , in our case disk image or VM
+file and click on next.
+Step 6 : Now we have to select image file and click on next button.
+Step 7 : Now click on select all in order to Run ingest modules on: and click on next.
+Step 8 : Now click on Finish.
+Step 9 : Now Autopsy window will appear and it will analyse the disk that we have selected.
+Step 10 : All image files appears in the Table tab. Select any file to see the data.
+Step 11 : Expand the tree from left side panel to view the document files.
+Step 12 : To recover the files , go to view code Deleted files node , here select any file and
+right click on it then select Extract files option.
+Step 13: Select Path where you want to save extracted file and click on save.
+Step 14 : Now click on OK.
+Step 15 : Now go to C:\autopsy\case_prac00124\Export folder to see recovered file.
+Step 16 : Click on generate report from Autopsy window and select the Excel format and Click on
+next.
+Step 17 : This window will appear.
+Step 18 : Now report is generated so click on close button. We can see the Report on Report
+Nodes.
+Step 19 : Click on report.
+Step 20 : Now open the report folder C:\autopsy\case_prac00124\Reports and open Excel files.
